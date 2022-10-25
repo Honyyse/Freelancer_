@@ -1,3 +1,13 @@
+/* root se define para crear colores, 
+puedes almacenar cualquier tipo de valor. */
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --primario: #fbee00;
+    --secundario: #003ffb;
+    --gris: #787775;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -8,11 +18,15 @@ body {
     estas dos lineas de html y body hacen que sea mas sencillo utilizar los rem, 
     con esos selectores hay mas comodidad y podemos aprovecar varias aplicaciones, 
     dispositivos y/o sitios web, con diferentes tamaños de pantalla y diseños---- utilizalo en todos los proyectos.*/
+    font-family: 'Alatsi', sans-serif;
+    
 }
 
-h1.titulo {
+.titulo {
     text-align: center;
+    /* google fonts: para escijer fuentes stile de letras*/
     font-size: 2.8em;
+    font-weight: 200;
 }
 
 .titulo span {
