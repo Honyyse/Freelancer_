@@ -4,7 +4,7 @@ puedes almacenar cualquier tipo de valor. */
     --blanco: #ffffff;
     --negro: #000000;
     --primario: #fbee00;
-    --secundario: #003ffb;
+    --secundario: #3842f2;
     --gris: #787775;
 }
 
@@ -31,4 +31,29 @@ body {
 
 .titulo span {
     font-size: 2rem;
+}
+
+.contenedor {
+    /*centrar el contenido*/
+    width: 120rem;
+    margin: 0 auto; 
+    
+}
+.nav-bg {
+     /* colo de la linea donde van los botones de navegacion*/
+    background-color: var(--secundario);
+}
+.navegacion-principal {
+    /*grosor de la barra de contenidos*/
+    padding: 1rem;
+    /*separar el contenido*/
+    display: flex;
+    justify-content: space-between;
+}
+ /* color de la palabra de navegacion*/
+.navegacion-principal a {
+    color: var(--blanco);
+     /* decorar los tectos con. lineas o cancelados etc. con: text o fonts*/
+    text-decoration: none;
+
 }
