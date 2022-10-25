@@ -1,0 +1,20 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    /* 1rem = 10px
+    estas dos lineas de html y body hacen que sea mas sencillo utilizar los rem, 
+    con esos selectores hay mas comodidad y podemos aprovecar varias aplicaciones, 
+    dispositivos y/o sitios web, con diferentes tamaños de pantalla y diseños---- utilizalo en todos los proyectos*/
+}
+
+h1.titulo {
+    text-align: center;
+    font-size: 3.8em;
+}
+
+.titulo span {
+    font-size: 2rem;
+}
