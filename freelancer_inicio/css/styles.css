@@ -53,7 +53,7 @@ body {
  /* color de la palabra de navegacion*/
 .navegacion-principal a {
     color: var(--blanco);
-     /* decorar los tectos con. lineas o cancelados etc. con: text o fonts*/
+     /* decorar los tectos con. lineas o cancelados etc. con: text o fonts.*/
     text-decoration: none;
 
 }
