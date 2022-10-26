@@ -37,15 +37,14 @@ body {
     /*centrar el contenido*/
     width: 120rem;
     margin: 0 auto; 
-    
 }
 .nav-bg {
      /* colo de la linea donde van los botones de navegacion*/
     background-color: var(--secundario);
 }
 .navegacion-principal {
-    /*grosor de la barra de contenidos*/
-    padding: 1rem;
+    /*grosor: barra*/
+    padding: 0rem;
     /*separar el contenido*/
     display: flex;
     justify-content: space-between;
@@ -55,5 +54,19 @@ body {
     color: var(--blanco);
      /* decorar los tectos con. lineas o cancelados etc. con: text o fonts.*/
     text-decoration: none;
-
+    /* incrementa el tamaño de los nav*/
+    font-size: 2rem;
+    /* negrilla de la letra*/
+    font-weight: 200;
+    /*grosor: letra*/
+    padding: 1rem;
 }
+.navegacion-principal a:hover{
+    background-color: var(--blanco);
+    color: var(--negro);
+}
+
+
+
+
+/* video 35 RESPONSIVE*/
