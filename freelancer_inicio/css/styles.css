@@ -35,7 +35,7 @@ body {
 
 .contenedor {
     /*centrar el contenido*/
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto; 
 }
 .nav-bg {
@@ -47,10 +47,18 @@ body {
     padding: 0rem;
     /*separar el contenido*/
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+@media (min-width: 768px) { 
+    .navegacion-principal {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
  /* color de la palabra de navegacion*/
 .navegacion-principal a {
+    display: block;
+    text-align: center;
     color: var(--blanco);
      /* decorar los tectos con. lineas o cancelados etc. con: text o fonts.*/
     text-decoration: none;
@@ -65,8 +73,14 @@ body {
     background-color: var(--blanco);
     color: var(--negro);
 }
+/* video 35 RESPONSIVE: Hcer que nuestroas paginas se adapten a cualquier resolucion y equipos, celulares, laptops--- ya esta creado ESCRIBIMOS mq..etc.
+@media (min-width: 480px): telefonos
+        (min-width: 768 : Tablet
+        (min-width: 1140px: laptop y pc escritorio.
+}*/
+.hero {
+    background-image: url(../img/logo.jpg.png);
+    background-repeat: no-repeat;
+}
 
-
-
-
-/* video 35 RESPONSIVE*/
+37 video 
