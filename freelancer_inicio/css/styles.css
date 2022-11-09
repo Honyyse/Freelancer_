@@ -1,16 +1,25 @@
 /* root se define para crear colores, 
-puedes almacenar cualquier tipo de valor. */
+puedes almacenar cualquier tipo de valor.
+FREEPIK : IMAGENES ETC */
 
 :root {
     --blanco: #ffffff;
     --negro: #000000;
     --primario: #fbee00;
     --secundario: #3842f2;
-    --gris: #787775;
+    --gris: #e0e0e0;
 }
 
 html {
     font-size: 62.5%;
+    /*modos de caja box (paul irish) */
+    box-sizing: border-box;
+}
+/* el asteriasco es un selector universarl que la aplica eso.. a todo el html
+EL AFFTER  : sirve para colocar algo desdpues de.
+BEFORE: colocar algo antes.*/
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -21,6 +30,15 @@ body {
     dispositivos y/o sitios web, con diferentes tamaños de pantalla y diseños---- utilizalo en todos los proyectos.*/
     font-family: 'Alatsi', sans-serif;
 }
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 1.8rem;
+}
 
 .titulo {
     text-align: center;
@@ -29,21 +47,21 @@ body {
     font-weight: 200;
 }
 
-
-/*  MONTAR EL LOGO ---______
-
+/* ANEXAR LOGO A MI PROYECTO*/
 .head {
     background-image: url(../img/logo.jpg.png);
     background-repeat: no-repeat;
-    
-}
-
-.head {
     padding: 8rem;
-    background-image: center;
+   background-position: center;
+   /*poner color transparente sobre la imagen*/
+   background-color: rgba(109, 156, 245, 0.1);
+   width: 100%;
+   height: 100%;
 }
-*/
 
+h1,h2,h3{
+    text-align: center;
+}
 .titulo span {
     font-size: 2rem;
 }
@@ -104,8 +122,31 @@ body {
 }*/
 
 .hero {
-    background-image: url(../img/maq1.jpg.jpg);
+    background-image: url(../img/laptop.jpg);
+    /*no repetir la imagen*/
     background-repeat: no-repeat;
+    /*imagen de toda la pantalla */
+    background-size: cover;
+    /* organizar imagem hero*/
+    height: 450px;
+    position: relative;
 }
 
-37 video
+.contenido-hero {
+    position: absolute;
+    /*poner color transparente sobre la imagen*/
+    background-color: rgba( 0,0,0,   .5);
+    width: 100%;
+    height: 100%;
+    /* alinear orizontal*/
+    display: flex;
+    /* alinear en  vertical*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-hero h2, 
+.contenido-hero p {
+    color: var(--gris);
+}
