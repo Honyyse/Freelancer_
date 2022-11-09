@@ -1,6 +1,7 @@
 /* root se define para crear colores, 
 puedes almacenar cualquier tipo de valor. */
-:root{
+
+:root {
     --blanco: #ffffff;
     --negro: #000000;
     --primario: #fbee00;
@@ -19,7 +20,6 @@ body {
     con esos selectores hay mas comodidad y podemos aprovecar varias aplicaciones, 
     dispositivos y/o sitios web, con diferentes tamaños de pantalla y diseños---- utilizalo en todos los proyectos.*/
     font-family: 'Alatsi', sans-serif;
-    
 }
 
 .titulo {
@@ -29,6 +29,21 @@ body {
     font-weight: 200;
 }
 
+
+/*  MONTAR EL LOGO ---______
+
+.head {
+    background-image: url(../img/logo.jpg.png);
+    background-repeat: no-repeat;
+    
+}
+
+.head {
+    padding: 8rem;
+    background-image: center;
+}
+*/
+
 .titulo span {
     font-size: 2rem;
 }
@@ -36,12 +51,14 @@ body {
 .contenedor {
     /*centrar el contenido*/
     max-width: 120rem;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+
 .nav-bg {
-     /* colo de la linea donde van los botones de navegacion*/
+    /* colo de la linea donde van los botones de navegacion*/
     background-color: var(--secundario);
 }
+
 .navegacion-principal {
     /*grosor: barra*/
     padding: 0rem;
@@ -49,18 +66,22 @@ body {
     display: flex;
     flex-direction: column;
 }
-@media (min-width: 768px) { 
+
+@media (min-width: 768px) {
     .navegacion-principal {
         flex-direction: row;
         justify-content: space-between;
     }
 }
- /* color de la palabra de navegacion*/
+
+
+/* color de la palabra de navegacion*/
+
 .navegacion-principal a {
     display: block;
     text-align: center;
     color: var(--blanco);
-     /* decorar los tectos con. lineas o cancelados etc. con: text o fonts.*/
+    /* decorar los tectos con. lineas o cancelados etc. con: text o fonts.*/
     text-decoration: none;
     /* incrementa el tamaño de los nav*/
     font-size: 2rem;
@@ -69,18 +90,22 @@ body {
     /*grosor: letra*/
     padding: 1rem;
 }
-.navegacion-principal a:hover{
+
+.navegacion-principal a:hover {
     background-color: var(--blanco);
     color: var(--negro);
 }
+
+
 /* video 35 RESPONSIVE: Hcer que nuestroas paginas se adapten a cualquier resolucion y equipos, celulares, laptops--- ya esta creado ESCRIBIMOS mq..etc.
 @media (min-width: 480px): telefonos
         (min-width: 768 : Tablet
         (min-width: 1140px: laptop y pc escritorio.
 }*/
+
 .hero {
     background-image: url(../img/maq1.jpg.jpg);
     background-repeat: no-repeat;
 }
 
-37 video 
+37 video
