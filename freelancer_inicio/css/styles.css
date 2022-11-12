@@ -68,7 +68,7 @@ h1,h2,h3{
 
 .contenedor {
     /*centrar el contenido*/
-    max-width: 120rem;
+    max-width: 160rem;
     margin: 0 auto;
 }
 
@@ -130,6 +130,7 @@ h1,h2,h3{
     /* organizar imagem hero*/
     height: 450px;
     position: relative;
+    
 }
 
 .contenido-hero {
