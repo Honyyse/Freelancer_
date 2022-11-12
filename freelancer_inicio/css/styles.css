@@ -6,7 +6,7 @@ FREEPIK : IMAGENES ETC */
     --blanco: #ffffff;
     --negro: #000000;
     --primario: #fbee00;
-    --secundario: #3842f2;
+    --secundario: #254bf1;
     --gris: #e0e0e0;
 }
 
@@ -39,6 +39,9 @@ h2{
 h3{
     font-size: 1.8rem;
 }
+h1,h2,h3{
+    text-align: center;
+}
 
 .titulo {
     text-align: center;
@@ -59,9 +62,6 @@ h3{
    height: 100%;
 }
 
-h1,h2,h3{
-    text-align: center;
-}
 .titulo span {
     font-size: 2rem;
 }
@@ -72,6 +72,22 @@ h1,h2,h3{
     margin: 0 auto;
 }
 
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    /*texto en MAYUSCULA*/
+    text-transform: uppercase;
+    /*Texto en negrita*/
+    font-weight: bold;
+    border-radius: .7rem;
+
+    
+}
+
 .nav-bg {
     /* colo de la linea donde van los botones de navegacion*/
     background-color: var(--secundario);
@@ -79,7 +95,6 @@ h1,h2,h3{
 
 .navegacion-principal {
     /*grosor: barra*/
-    padding: 0rem;
     /*separar el contenido*/
     display: flex;
     flex-direction: column;
@@ -145,9 +160,19 @@ h1,h2,h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+   
 }
 
 .contenido-hero h2, 
 .contenido-hero p {
     color: var(--gris);
+    padding: 1rem;
 }
+    
+.ubicacion {
+    /* alinear en  vertical*/
+    display: flex;
+    align-items:flex-end;
+}
+
